@@ -165,7 +165,17 @@ h6 {
 }
 
 .faiz{
-  height: 100vh;
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+@media (min-width: 1200px) {
+  .faiz {
+    height: 60vh;
+    object-position: center top;
+  }
 }
 
 .header .logo {

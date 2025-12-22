@@ -1,0 +1,81 @@
+/* Stats Section Styling */
+.stats.section {
+  padding: 80px 0;
+}
+
+.stats .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.stats .row {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.stats .stats-item {
+  text-align: center;
+  padding: 40px 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stats .stats-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+}
+
+.stats .stats-item i {
+  font-size: 48px;
+  color: #149ddd;
+  margin-bottom: 20px;
+}
+
+.stats .stats-item .purecounter {
+  font-size: 48px;
+  font-weight: 700;
+  color: #149ddd;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.stats .stats-item p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  line-height: 1.4;
+}
+
+.stats .stats-item p span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  display: block;
+  margin-top: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .stats .row {
+    gap: 20px;
+  }
+  
+  .stats .stats-item {
+    padding: 30px 20px;
+  }
+  
+  .stats .stats-item i,
+  .stats .stats-item .purecounter {
+    font-size: 36px;
+  }
+}

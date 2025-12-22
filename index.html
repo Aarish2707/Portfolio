@@ -28,6 +28,8 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/contact-form.css" rel="stylesheet">
+  <link href="assets/css/contact-links.css" rel="stylesheet">
+  <link href="assets/css/stats-section.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: iPortfolio
@@ -44,7 +46,7 @@
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="my-image" class="img-fluid rounded-circle">
+      <img src="assets/img/my-profile-img-1.png" alt="my-image" class="img-fluid rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -78,7 +80,7 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="faiz">
+      <img src="assets/img/hero-bg2.png" alt="" data-aos="fade-in" class="faiz">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <h2>Aarish Sheikh</h2>
@@ -100,7 +102,7 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="profile-pic">
+            <img src="assets/img/my-profile-img-1.png" class="img-fluid" alt="profile-pic">
           </div>
           <div class="col-lg-8 content">
             <h2>Java Backend Developer &amp; Full Stack Developer.</h2>
@@ -112,7 +114,7 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>28 06 2005</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 7249210279</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:+917249210279" class="contact-link">+91 7249210279</a></span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Pune, India</span></li>
                 </ul>
               </div>
@@ -120,7 +122,7 @@
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>20</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>bachelors</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>aarishsheikh3757@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:aarishsheikh3757@gmail.com" class="contact-link">aarishsheikh3757@gmail.com</a></span></li>
                 </ul>
               </div>
             </div>
@@ -153,15 +155,15 @@
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
               <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> <span> 4 live projects with one enterprise project.</span></p>
+              <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> <span> 8 live projects with 3 enterprise project.</span></p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item">
               <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter">+</span>
               <p><strong>Hours Of Support</strong></p>
             </div>
           </div><!-- End Stats Item -->
@@ -206,13 +208,28 @@
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div><!-- End Skills Item -->
+            
+            <div class="progress">
+              <span class="skill"><span>Tailwind Css</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <!-- End Skills Item -->
 
           </div>
 
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill"><span>Java(SpringBoot)</span> <i class="val">95%</i></span>
+              <span class="skill"><span>Java (SpringBoot)</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Python (Django)</span> <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -231,6 +248,8 @@
               </div>
             </div>
             <!-- End Skills Item -->
+
+
 
           </div>
 
@@ -258,39 +277,39 @@
 
             <div class="resume-item pb-0">
               <h3>Aarish Sheikh</h3>
-                Pune-412207, Maharashtra | (+91) 7249210279 | aarishsheikh3757@gmail.com <br><br>
-                <h3 class="resume-title">Sumary</h3>
-                <p><em>To secure a challenging position as a Java Developer where I can leverage my expertise in Core Java, Spring Boot and database
-                management to contribute to innovative software solutions and organizational growth.<br>
+                Pune-412110, Maharashtra | <a href="tel:+917249210279" class="contact-link">(+91) 7249210279</a> | <a href="mailto:aarishsheikh3757@gmail.com" class="contact-link">aarishsheikh3757@gmail.com</a> <br><br>
+                <h3 class="resume-title">Professional Summary</h3>
+                <p><em>A highly motivated full-stack developer having 1 year of experience in Web Development, skilled in modern, high-demand frameworks: Spring Boot (Java), React.js (Frontend), and Python/Django. Seeking a challenging role to architect, build, and maintain scalable, secure, and high-performance applications across the complete development stack.<br>
                 <ul style="list-style-type: disc;">
-                   <li>Good Understanding and Knowledge of Core and Advanced Java, DSA, React.Js adn Node.Js.</li>
-                  <li>Programming knowledge using MYSQL and PostgreSQL Databases, scripts for the database and basic knowledge of MongoDB.</li>
-                <li>Sound Analytical Skills and ability to adapt to any technology within a short span of Time.</li>
+                   <li>Programming Languages: Java, Python, SQL(PostgreSQL), HTML/CSS, Javascript, C</li>
+                  <li>Frameworks: Spring Boot, Django, React.Js, Angular.Js</li>
+                <li>Database: MySQL, PostgreSQL, MongoDB (NoSQL)</li>
+                <li>Development Tools: IntelliJ IDE, VS Code, Eclipse IDE, Postman, Git, GitHub</li>
                 </ul>
                 </em></p>
-            </div><!-- Edn Resume Item -->
+            </div><!-- End Resume Item -->
 
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Bachelors of Computer Science(BCs).</h4>
-              <p><em>College: Abeda Inamdar Senior College of Arts, Commerece And Science, Pune.</em></p> 
-              <h5>Year: 2022-2025</h5>
-              <h6>[89.6% | 9.454]</h6>
-            </div><!-- Edn Resume Item -->
+              <h4>Bachelor of Computer Science</h4>
+              <p><em>Abeda Inamdar Senior College, Pune</em></p> 
+              <h5>June 2022 – April 2025</h5>
+              <h6>CGPA: 9.45/10 | (89.6%)</h6>
+            </div><!-- End Resume Item -->
 
             <div class="resume-item">
-              <h4>Higher Secondary Education</h4>
-              <p><em>College: Smt. Subhadrabai Ramchandra Bhumkar Junior College, Pune.</em></p> 
-              <h5>Year: 2020-2022</h5>
-              <h6>[71%]</h6>
-            </div><!-- Edn Resume Item -->
+              <h4>Higher Secondary Education (HSC)</h4>
+              <p><em>Smt. Subhadrabai Ramchandra Bhumkar Junior College, Pune</em></p> 
+              <h5>June 2020 – March 2022</h5>
+              <h6>71.00%</h6>
+            </div><!-- End Resume Item -->
 
 
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <h3 class="resume-title">Professional Experience</h3>
-            <div class="resume-item">
+            <!-- <div class="resume-item">
               <h4>Full Stack development Intern</h4>
               <h5>March 2025 - April 2025</h5>
               <p><em>CodVeda Technologies</em></p>
@@ -300,7 +319,7 @@
                 <li>Explore real-time communication using Socket.IO</li>
                 <li>Enhance teamwork, communication, and problem-solving in a professional environment</li>
               </ul>
-            </div><!-- Edn Resume Item-->
+            </div><!-- Edn Resume Item--
 
             <div class="resume-item">
               <h4>Java development Intern</h4>
@@ -311,19 +330,30 @@
                 <li>Dived deeper to more knowledge about the Collection Framework.</li>
                 <li>Gained hands-on experience in rest-APIs in eclipse and IntelliJ IDEs.</li>
               </ul>
-            </div><!-- Edn Resume Item-->
+            </div>Edn Resume Item -->
 
             <div class="resume-item">
-              <h4>Full Stack development Intern</h4>
-              <h5>Jun 2025 - Present</h5>
+              <h4>Full Stack Development Intern</h4>
+              <h5>June 2025 – Present</h5>
               <p><em>Low Code System Softwares</em></p>
               <ul>
-                <li>Upskilling my basics of python web development using Django framework.</li>
-                <li>Focusing on learning more about frontend libraries of React. Js such as MUI, Ant Design.</li>
-                <li>Building Scalable and Full fledge web and android applications</li>
-                <li>Debugged and optimized 8+ projects, ensuring improved performance and stability.</li>
+                <li>Impact-Driven Optimization: Spearheaded quality assurance efforts by diagnosing and resolving critical performance bottlenecks across 8+ production projects, resulting in direct improvement in system stability</li>
+                <li>Scalable Architecture & Delivery: Contributed to end-to-end development of new applications, designing scalable microservices and integrating complex logic to ensure 100% readiness for high-availability production deployment</li>
+                <li>Advanced proficiency in Python/Django and MUI/Ant Design expertise, accelerating full-stack development by over 60%</li>
               </ul>
-            </div><!-- Edn Resume Item-->
+            </div><!-- End Resume Item -->
+
+            <h3 class="resume-title">Certifications</h3>
+            <div class="resume-item">
+              <h4>Professional Certifications</h4>
+              <ul>
+                <li>Java Backend Developer (ICT Academy)</li>
+                <li>Professional Certificate in SQL (Udemy)</li>
+                <li>Python & Django Web Development Course (Udemy)</li>
+                <li>Cloud Computing (Acme Grade)</li>
+                <li>React.Js - Complete Guide for Frontend Web Development (Udemy)</li>
+              </ul>
+            </div><!-- End Resume Item -->
 
           </div>
 
@@ -339,7 +369,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>This are my projects that I have completed and uploaded live..</p>
+        <p>This are my projects that I have completed and Deployed..</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -390,7 +420,7 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/app-5.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -482,6 +512,16 @@
           </div>
           <!-- End Service Item -->
 
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+            <div>
+              <h4 class="title">Web-based Application Development</h4>
+              <p class="description">Languages: JavaScript, Java, Python.</p>
+              <p class="description">Frameworks: React.Js, SpringBoot, Djanog, Flask.</p>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
             <div>
@@ -557,7 +597,7 @@
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Call Me</h3>
-                  <p>+91 7249210279</p>
+                  <p><a href="tel:+917249210279" class="contact-link">+91 7249210279</a></p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -565,7 +605,7 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email Us</h3>
-                  <p>aarishsheikh3757@gmail.com</p>
+                  <p><a href="mailto:aarishsheikh3757@gmail.com" class="contact-link">aarishsheikh3757@gmail.com</a></p>
                 </div>
               </div><!-- End Info Item -->
 
