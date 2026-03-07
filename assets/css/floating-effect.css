@@ -1,0 +1,243 @@
+/* Floating Animations */
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10.5px);
+  }
+}
+
+@keyframes floatFast {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-17.5px);
+  }
+}
+
+/* Header Floating */
+.header {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Profile Image Floating */
+.profile-img img {
+  animation: floatFast 3s ease-in-out infinite;
+}
+
+/* About Section Image */
+.about img {
+  animation: float 5s ease-in-out infinite;
+}
+
+/* About Content */
+.about .content {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+/* Stats Items */
+.stats .stats-item {
+  animation: float 4s ease-in-out infinite;
+}
+
+.stats .stats-item:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.stats .stats-item:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.stats .stats-item:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.stats .stats-item:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+/* Skills Progress Bars */
+.skills .progress {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.skills .col-lg-6:nth-child(1) .progress:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.skills .col-lg-6:nth-child(1) .progress:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.skills .col-lg-6:nth-child(1) .progress:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.skills .col-lg-6:nth-child(1) .progress:nth-child(4) {
+  animation-delay: 0.9s;
+}
+
+.skills .col-lg-6:nth-child(2) .progress:nth-child(1) {
+  animation-delay: 1.2s;
+}
+
+.skills .col-lg-6:nth-child(2) .progress:nth-child(2) {
+  animation-delay: 1.5s;
+}
+
+.skills .col-lg-6:nth-child(2) .progress:nth-child(3) {
+  animation-delay: 1.8s;
+}
+
+.skills .col-lg-6:nth-child(2) .progress:nth-child(4) {
+  animation-delay: 2.1s;
+}
+
+/* Resume Items */
+.resume .resume-item {
+  animation: float 5s ease-in-out infinite;
+}
+
+.resume .resume-item:nth-child(odd) {
+  animation-delay: 0s;
+}
+
+.resume .resume-item:nth-child(even) {
+  animation-delay: 0.5s;
+}
+
+/* Portfolio Items */
+.portfolio .portfolio-content {
+  animation: floatFast 4s ease-in-out infinite;
+}
+
+.portfolio .portfolio-item:nth-child(1) .portfolio-content {
+  animation-delay: 0s;
+}
+
+.portfolio .portfolio-item:nth-child(2) .portfolio-content {
+  animation-delay: 0.3s;
+}
+
+.portfolio .portfolio-item:nth-child(3) .portfolio-content {
+  animation-delay: 0.6s;
+}
+
+.portfolio .portfolio-item:nth-child(4) .portfolio-content {
+  animation-delay: 0.9s;
+}
+
+.portfolio .portfolio-item:nth-child(5) .portfolio-content {
+  animation-delay: 1.2s;
+}
+
+.portfolio .portfolio-item:nth-child(6) .portfolio-content {
+  animation-delay: 1.5s;
+}
+
+.portfolio .portfolio-item:nth-child(7) .portfolio-content {
+  animation-delay: 1.8s;
+}
+
+.portfolio .portfolio-item:nth-child(8) .portfolio-content {
+  animation-delay: 2.1s;
+}
+
+.portfolio .portfolio-item:nth-child(9) .portfolio-content {
+  animation-delay: 2.4s;
+}
+
+.portfolio .portfolio-item:nth-child(10) .portfolio-content {
+  animation-delay: 2.7s;
+}
+
+/* Service Items */
+.services .service-item {
+  animation: float 5s ease-in-out infinite;
+}
+
+.services .service-item:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.services .service-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.services .service-item:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+.services .service-item:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+.services .service-item:nth-child(5) {
+  animation-delay: 1.6s;
+}
+
+.services .service-item:nth-child(6) {
+  animation-delay: 2s;
+}
+
+/* Contact Section */
+.contact .info-wrap {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.contact .php-email-form {
+  animation: floatSlow 6s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+/* Section Titles */
+.section-title {
+  animation: float 5s ease-in-out infinite;
+}
+
+/* Social Links */
+.social-links a {
+  animation: floatFast 3s ease-in-out infinite;
+}
+
+.social-links a:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.social-links a:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.social-links a:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.social-links a:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.social-links a:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+/* Hero Content */
+.hero .container {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Scroll Top Button */
+.scroll-top {
+  animation: floatFast 2s ease-in-out infinite;
+}
